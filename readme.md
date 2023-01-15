@@ -14,6 +14,10 @@ https://www.tngsitebuilding.com/
 This is a plugin to enable individual commenting of people and/or media.
 This is not a single-signon with TNG, but it enables none-TNG users to use their excisting social media accounts for commenting instead of registering for TNG, which hopefully lowers the bar to comment on the page. 
 
+This mod uses the mediaID-parameter for media, and both personID- and tree-parameters for persons, to identify the unique comment threads.
+
+You can administrate all comments and threads from the Graphcomment admin area.
+
 
 ## Installation:
 
@@ -28,3 +32,4 @@ This is not a single-signon with TNG, but it enables none-TNG users to use their
 ## Known issues:
 - Browser console may show some GraphComment API-errors. These seem to be unimportant and happens on pages without TNG too. Most annoying message have been reported to Graphcomment. Commenting works even when these errors occurs.
 
+- Link directly from the GraphComment Admin page to the person or media containing the comment do not work, but you should be able to identify the thread.  
