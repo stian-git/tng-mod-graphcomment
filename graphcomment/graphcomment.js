@@ -1,6 +1,6 @@
 // GraphComment-plugin for TNG.
 // Made by Trembline - January 2023.
-https://github.com/stian-git/tng-mod-graphcomment
+// https://github.com/stian-git/tng-mod-graphcomment
 
 // Variables:
 const fileName = document.location.pathname.split("/").pop();
